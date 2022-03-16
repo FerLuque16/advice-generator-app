@@ -20,10 +20,10 @@ function App() {
         <h3>Advice #{advice.id}</h3>
         <p>"{advice.advice}"</p>
         <div className='pattern-divider pattern-desktop'>
-          <img src='./images/pattern-divider-desktop.svg'/>
+          <img src='./images/pattern-divider-desktop.svg' alt='divider-desktop'/>
         </div>
         <div className='pattern-divider pattern-mobile'>
-          <img src='./images/pattern-divider-mobile.svg'/>
+          <img src='./images/pattern-divider-mobile.svg' alt='divider-mobile'/>
         </div>
         <Button handleClick = {changeAdvice}/>
       </div>
