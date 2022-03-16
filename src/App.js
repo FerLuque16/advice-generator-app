@@ -27,6 +27,7 @@ function App() {
         </div>
         <Button handleClick = {changeAdvice}/>
       </div>
+      <p className='rights'>Challenge by <a href='https://www.frontendmentor.io/home' target='_blank'>Frontend Mentor</a>. Coded by <a href='https://github.com/FerLuque16' target='_blank'>Fernando Luque</a></p>
     </div>
 
   );
